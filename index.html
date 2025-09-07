@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI Interview Coach Chatbot</title>
+
+  <!-- CSS File -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ================================
+       HEADER
+  ================================= -->
+  <div class="page-header">
+    AI INTERVIEW COACH
+  </div>
+
+  <!-- ================================
+       INFO SECTION
+  ================================= -->
+  <div class="info">
+    <h1>🤖 Welcome to your <strong>AI Interview Coach</strong>!</h1>
+    <p>
+      Our smart chatbot helps you practice interview questions, improve confidence, and sharpen your responses. 💡 <br>
+      Get real-time feedback, personalized guidance, and boost your career opportunities with AI-driven support. 🚀💬
+    </p>
+  </div>
+
+  <!-- Floating Chat Button -->
+  <button class="chat-btn">💬</button>
+
+  <!-- ================================
+       CHAT WINDOW
+  ================================= -->
+  <div class="chat-window">
+    <div class="chat-header">
+      <span>Chatbot</span>
+      <div>
+        <button class="theme-toggle" id="themeToggle">🌙</button>
+        <button id="closeBtn" class="close-btn">✖</button>
+      </div>
+    </div>
+
+    <div class="chat-body" id="chatBody">
+      <div class="message bot">Hello 👋 How can I help you?</div>
+    </div>
+
+    <div class="chat-input">
+      <input type="text" id="userInput" placeholder="Type a message...">
+      <button id="sendBtn">➤</button>
+    </div>
+  </div>
+
+  <!-- JS File -->
+  <script src="script.js"></script>
+</body>
+</html>
